@@ -1,0 +1,585 @@
+@import "fonts.css";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+#register {
+    background: black;
+    padding: 15px 0;
+
+}
+
+.register__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.phone__info {
+    display: flex;
+}
+
+.phone__info img {
+    width: 13px;
+}
+
+.phone__number {
+    margin-left: 15px;
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #969696;
+}
+
+.register__form {
+    display: flex;
+}
+
+.register__form img {
+    width: 13px;
+    align-items: center;
+}
+
+.login {
+    margin-left: 15px;
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #969696;
+}
+
+.header__inner {
+    background: #0F0F0F;
+    padding: 15px 0;
+}
+
+.container {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+.header__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-family: Post No Bills Jaffna;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 54px;
+    color: #FFFFFF;
+}
+
+.menu {
+    margin-left: 410px;
+}
+
+.menu__list {
+    display: flex;
+}
+
+
+.menu__link {
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 30px 20px;
+}
+
+.menu__link:hover {
+    background: #1F1F1F;
+    transition: .2s;
+    color: #FFFFFF;
+}
+
+.header__icons {
+    display: flex;
+    align-items: center;
+}
+
+.cart {
+    margin-right: 15px;
+}
+
+#hero {
+    background: url("../images/hero-bg/hero.png") center center/cover no-repeat;
+    min-height: 810px;
+    padding: 160px 0 0 0;
+}
+
+ #hero .row {
+    display: flex;
+    justify-content: center;
+}
+
+ .hero__square {
+     text-align: center;
+     border: 3px solid #FFFFFF;
+     padding: 95px 0;
+ }
+
+
+.col-4 {
+    width: 33.3333%;
+}
+
+.hero__logo {
+    display: inline-block;
+    font-family: Post No Bills Jaffna;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 96px;
+    color: #FFFFFF;
+    height: 85px;
+    border-bottom: 2px solid white;
+}
+
+.hero__town {
+    display: block;
+    padding-top: 7px;
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.hero__desc {
+    display: block;
+    width: 670px;
+    padding-top: 80px;
+    margin: 0 auto;
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+#new__collection {
+    display: flex;
+    min-height: 730px;
+}
+
+.clock {
+    width: 55%;
+    background: #000;
+    padding: 95px 80px;
+}
+
+.clock__title {
+    display: block;
+    text-align: center;
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.line {
+    display: block;
+    height: 1px;
+    background: #FFFFFF;
+    width: 120px;
+    margin: 50px auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -25px;
+}
+
+.col-4 {
+    width: 33.3333%;
+    padding: 0 25px;
+}
+
+
+.clock__item {
+    background: #191B1C;
+    padding: 55px 25px;
+}
+
+.clock__img {
+    width: 100%;
+}
+
+.model {
+    display: block;
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding: 25px 0 10px 0;
+}
+
+.cost {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px;
+    color: #D0D0D0;
+}
+
+.catalog {
+    padding: 484px 0 0 0;
+    width: 45%;
+    background: url("../images/new-collection/new-bg/bg.png") left/cover no-repeat;
+}
+
+.catalog__title {
+    display: block;
+    text-align: center;
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.catalog__item {
+    text-align: center;
+}
+
+.catalog__line {
+    display: block;
+    width: 120px;
+    background: #FFFFFF;
+    height: 1px;
+    margin: 30px auto;
+}
+
+.catalog__menu {
+    display: inline-block;
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    padding: 13px 40px;
+}
+
+.catalog__menu:hover {
+    background: #1F1F1F;
+    transition: .2s;
+    color: #FFFFFF;
+}
+
+#old__collection {
+    display: flex;
+    min-height: 600px;
+}
+
+.old__fashion {
+    width: 45%;
+    background: url("../images/old-collection/bg-img.png") center/cover no-repeat;
+}
+
+.old__fashion-info {
+    width: 55%;
+    background: black;
+    padding: 100px 0;
+}
+
+.old__fashion__title {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+}
+
+.old__fashion-line {
+    display: block;
+    width: 120px;
+    background: #FFFFFF;
+    height: 1px;
+    margin: 40px auto;
+}
+
+.old__fashion-desc {
+    display: block;
+    text-align: center;
+    width: 450px;
+    margin: 0 auto;
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+
+.old__fashion-menu {
+    display: inline-block;
+    border: 1px solid #FFFFFF;
+    padding: 13px 40px;
+    margin-top: 70px;
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.old__fashion-menu:hover {
+    background: #1F1F1F;
+    transition: .2s;
+    color: #FFFFFF;
+}
+
+#new__receipts {
+    background: black;
+    padding: 120px 0 150px 0;
+}
+
+.receipts__title {
+    display: block;
+    text-align: center;
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.receipts__line {
+    display: block;
+    width: 120px;
+    background: #FFFFFF;
+    height: 1px;
+    margin: 40px auto;
+}
+
+#new__receipts .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -12px;
+}
+
+.col-3 {
+    width: 25%;
+    padding: 40px 12px 0 12px;
+}
+
+#brands {
+    padding: 60px 0 80px 0;
+    background: #0F0F0F;
+}
+
+.brands__title {
+    display: block;
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.brands__line {
+    display: block;
+    width: 120px;
+    background: #FFFFFF;
+    height: 1px;
+    margin: 40px auto;
+}
+
+#brands .row {
+    margin: 0 -12px;
+}
+
+#main__info {
+    padding: 80px 0 100px 0;
+    background: url("../images/main-info/bg-info.png") center center/cover no-repeat;
+}
+
+
+#main__info .row {
+    display: flex;
+    margin: 0 -25px;
+}
+
+.main__info-title {
+    display: block;
+    margin-bottom: 20px;
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.main__info-desc {
+    display: block;
+    width: 345px;
+    padding-top: 20px;
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+
+.main__info-links {
+
+}
+
+.info-link {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 20px 18px 0 0;
+    border: 1px solid #0F0F0F;
+    background: #0F0F0F;
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    color: #D0D0D0;
+
+}
+
+.main__info-label {
+    display: block;
+    position: relative;
+    margin-top: 40px;
+}
+
+#email {
+    width: 100%;
+    padding: 14px 0 14px 20px;
+    border: none;
+    background: rgba(255, 255, 255, 0.4);
+}
+
+::placeholder {
+    color: #FFFFFF;
+}
+
+.subscribe__btn {
+    padding: 10px;
+    position: absolute;
+    right: 0;
+    border: 1px solid #0f0f0f;
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    background: #0f0f0f;
+}
+
+.footer {
+    background: #0F0F0F;
+    padding: 20px 0;
+}
+
+.footer__info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__rights {
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #D0D0D0;
+}
+
+.footer__desc {
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #D0D0D0;
+}
+
+
+.topbutton {
+    font-style: italic;
+    width:100px;
+    border:2px solid #ccc;
+    background:#f7f7f7;
+    text-align:center;
+    padding:5px;
+    position:fixed;
+    bottom:50px;
+    right:50px;
+    cursor:pointer;
+    color:#333;
+    font-family: PT Sans;
+    font-size:20px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+}
+
+
+
