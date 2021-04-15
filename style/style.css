@@ -6,6 +6,7 @@
     box-sizing: border-box;
 }
 
+
 a {
     text-decoration: none;
 }
@@ -55,7 +56,17 @@ ul {
 }
 
 .login {
+    width: 39px;
     margin-left: 15px;
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #969696;
+}
+
+.registration {
     font-family: PT Sans;
     font-style: normal;
     font-weight: normal;
@@ -133,6 +144,7 @@ ul {
  #hero .row {
     display: flex;
     justify-content: center;
+
 }
 
  .hero__square {
@@ -142,7 +154,7 @@ ul {
  }
 
 
-.col-4 {
+ #hero .col-4 {
     width: 33.3333%;
 }
 
@@ -216,13 +228,13 @@ ul {
     margin: 50px auto;
 }
 
-.row {
+ #new__collection .row {
     display: flex;
     flex-wrap: wrap;
     margin: 0 -25px;
 }
 
-.col-4 {
+ #new__collection .col-4 {
     width: 33.3333%;
     padding: 0 25px;
 }
@@ -412,7 +424,7 @@ ul {
     margin: 0 -12px;
 }
 
-.col-3 {
+#new__receipts .col-3 {
     width: 25%;
     padding: 40px 12px 0 12px;
 }
@@ -443,7 +455,14 @@ ul {
 }
 
 #brands .row {
+    display: flex;
     margin: 0 -12px;
+
+}
+
+#brands .col-3 {
+    width: 25%;
+    padding: 0 12px;
 }
 
 #main__info {
@@ -455,6 +474,11 @@ ul {
 #main__info .row {
     display: flex;
     margin: 0 -25px;
+}
+
+#main__info .col-4 {
+    width: 33.3333%;
+    padding: 0 25px;
 }
 
 .main__info-title {
@@ -563,22 +587,20 @@ ul {
 
 .topbutton {
     font-style: italic;
-    width:100px;
-    border:2px solid #ccc;
-    background:#f7f7f7;
-    text-align:center;
-    padding:5px;
-    position:fixed;
-    bottom:50px;
-    right:50px;
-    cursor:pointer;
-    color:#333;
+    width: 100px;
+    border: 2px solid #ccc;
+    background: #f7f7f7;
+    text-align: center;
+    padding: 5px;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    cursor: pointer;
+    color: #333;
     font-family: PT Sans;
-    font-size:20px;
+    font-size: 20px;
     border-radius: 5px;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -khtml-border-radius: 5px;
+
 }
 
 

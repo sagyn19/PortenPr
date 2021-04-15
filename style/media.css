@@ -1,4 +1,6 @@
-@media (max-width: 1500px) {
+
+@media (max-width: 2000px) {
+
     .media__inner {
         display: none;
     }
@@ -8,7 +10,29 @@
     }
 }
 
+@media (max-width: 1500px) {
+
+    .media__inner {
+        display: none;
+    }
+
+    .media__menu {
+        display: none;
+    }
+}
 @media (max-width: 1200px) {
+    .media__inner {
+        display: none;
+    }
+
+    .media__menu {
+        display: none;
+    }
+
+}
+
+@media (max-width: 991px) {
+
     .header__inner {
         display: none;
     }
@@ -175,7 +199,7 @@
     }
 
     #new__receipts .col-3 {
-        width: 40% ;
+        width: 36% ;
     }
 
     #brands .row {
@@ -206,23 +230,6 @@
     }
 
 
-
-
-}
-
-
-@media (max-width: 991px) {
-    #hero .col-4 {
-        width: 40%;
-    }
-
-    #brands .row {
-        flex-direction: column;
-        align-items: center;
-        margin: 0;
-
-    }
-
 }
 
 @media (max-width: 767px) {
@@ -242,6 +249,8 @@
         width: 460px;
     }
 
+
+
     #brands .row {
         flex-direction: column;
         align-items: center;
@@ -260,6 +269,10 @@
 
     #register {
         padding: 15px 10px;
+    }
+
+    .media__inner {
+        padding: 15px 50px;
     }
 
     #hero .col-4 {
